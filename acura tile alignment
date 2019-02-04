@@ -1,0 +1,183 @@
+<script>
+$(document).ready(function(){
+
+$("#top").click(function(){
+console.log("top");
+
+$('#top img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top sel.png');
+$('#topright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top right.png');
+$('#topleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top left.png');
+$('#left img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/left.png');
+$('#center img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center.png');
+$('#right img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/right.png');
+$('#bottomleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom left.png');
+$('#bottom img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom.png');
+$('#bottomright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom right.png');
+
+passAlignment("top");
+});
+
+$("#topright").click(function(){
+console.log("top right");
+$('#top img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top.png');
+$('#topright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top right sel.png');
+$('#topleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top left.png');
+$('#left img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/left.png');
+$('#center img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center.png');
+$('#right img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/right.png');
+$('#bottomleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom left.png');
+$('#bottom img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom.png');
+$('#bottomright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom right.png');
+passAlignment("top right");
+});
+
+$("#right").click(function(){
+console.log("right");
+$('#top img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top.png');
+$('#topright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top right.png');
+$('#topleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top left.png');
+$('#left img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/left.png');
+$('#center img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center.png');
+$('#right img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/right sel.png');
+$('#bottomleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom left.png');
+$('#bottom img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom.png');
+$('#bottomright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom right.png');
+passAlignment("right");
+});
+
+$("#bottomright").click(function(){
+console.log("bottom right");
+$('#top img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top.png');
+$('#topright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top right.png');
+$('#topleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top left.png');
+$('#left img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/left.png');
+$('#center img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center.png');
+$('#right img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/right.png');
+$('#bottomleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom left.png');
+$('#bottom img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom.png');
+$('#bottomright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom right sel.png');
+passAlignment("bottom right");
+});
+
+$("#bottom").click(function(){
+console.log("bottom");
+$('#top img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top.png');
+$('#topright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top right.png');
+$('#topleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top left.png');
+$('#left img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/left.png');
+$('#center img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center.png');
+$('#right img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/right.png');
+$('#bottomleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom left.png');
+$('#bottom img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom sel.png');
+$('#bottomright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom right.png');
+passAlignment("bottom");
+});
+
+$("#bottomleft").click(function(){
+console.log("bottom left");
+$('#top img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top.png');
+$('#topright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top right.png');
+$('#topleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top left.png');
+$('#left img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/left.png');
+$('#center img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center.png');
+$('#right img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/right.png');
+$('#bottomleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom left sel.png');
+$('#bottom img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom.png');
+$('#bottomright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom right.png');
+passAlignment("bottom left");
+});
+
+$("#left").click(function(){
+console.log("left");
+$('#top img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top.png');
+$('#topright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top right.png');
+$('#topleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top left.png');
+$('#left img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/left sel.png');
+$('#center img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center.png');
+$('#right img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/right.png');
+$('#bottomleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom left.png');
+$('#bottom img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom.png');
+$('#bottomright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom right.png');
+passAlignment("left");
+});
+
+$("#topleft").click(function(){
+console.log("top left");
+$('#top img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top.png');
+$('#topright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top right.png');
+$('#topleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top left sel.png');
+$('#left img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/left.png');
+$('#center img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center.png');
+$('#right img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/right.png');
+$('#bottomleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom left.png');
+$('#bottom img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom.png');
+$('#bottomright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom right.png');
+passAlignment("top left");
+});
+
+$("#center").click(function(){
+console.log("center");
+
+$('#top img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top.png');
+$('#topright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top right.png');
+$('#topleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top left.png');
+$('#left img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/left.png');
+$('#center img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center sel.png');
+$('#right img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/right.png');
+$('#bottomleft img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom left.png');
+$('#bottom img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom.png');
+$('#bottomright img').attr('src','http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom right.png');
+
+$("#arrowContainer #center").click();
+passAlignment("center");
+});
+
+});
+
+
+</script>
+<div class="arrowContainerParent">
+<div id="arrowContainer"  style="width: 300px; height:150px;">
+
+<div id="topleft" style="width:20px; height:30px; display:inline-block">
+<img src="http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top left.png" title="Align Top Left">
+</div>
+
+<div id="top" style="width:20px; height:30px;display:inline-block">
+<img src="http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top.png" title="Align Top">
+</div>
+
+<div id="topright" style="width:20px; height:30px;display:inline-block">
+<img src="http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/top right.png" title="Align Top Right">
+</div>
+
+<br />
+<div id="left" style="width:20px; height:30px; clear: left; display:inline-block">
+<img src="http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/left.png" title="Align Left">
+</div>
+
+<div id="center" style="width:20px; height:30px; display:inline-block">
+<img src="http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center sel.png" title="Align Center">
+</div>
+
+<div id="right" style="width:20px; height:30px; display:inline-block">
+<img src="http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/right.png" title="Align Right">
+</div>
+
+<br />
+
+<div id="bottomleft" style="width:20px; height:30px; clear: left; display:inline-block">
+<img src="http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom left.png" title="Align Bottom Left">
+</div>
+
+
+<div id="bottom" style="width:20px; height:30px; display:inline-block">
+<img src="http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom.png" title="Align Bottom">
+</div>
+
+<div id="bottomright" style="width:20px; height:30px; display:inline-block">
+<img src="http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/bottom right.png" title="Align Bottom Right">
+</div>
+
+</div>
+</div>
