@@ -157,7 +157,7 @@ passAlignment("center");
 </div>
 
 <div id="center" style="width:20px; height:30px; display:inline-block">
-<img src="http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center sel.png" title="Align Center">
+<img src="http://estore.bdimaging.com/ustore/images/honda/PropertyIcons/Arrows/center.png" title="Align Center">
 </div>
 
 <div id="right" style="width:20px; height:30px; display:inline-block">
